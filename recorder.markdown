@@ -9,13 +9,16 @@ MOT multiple object tracking 目标追踪 检测+联系匹配
    TrackFormer
 # A Simple Baseline for Multi-Object Tracking
 # ByteTrack: Multi-Object Tracking by Associating Every Detection Box
-# Online Multiple Object Tracking with Cross-Task Synerg
+# Online Multiple Object Tracking with Cross-Task Synerg  
+>通过注意和分散解决occlusion
+协同预测步骤和特征提取步骤
+
 # Deep SORT
-  
->匈牙利算法
->卡尔曼滤波<br>
+>YoloV5生成bbox
+>匈牙利算法 基于Reid iou构建代价矩阵完成tracks和bboxes的匹配
+>基于卡尔曼滤波生成预测
 >代价矩阵(reid,iou,卡尔曼估计)
-reid 图像特征(缺乏时空信息和运动信息)
+缺点：缺乏时空信息和运动信息
 
 
 
@@ -55,7 +58,8 @@ reid 图像特征(缺乏时空信息和运动信息)
 
 
 
- 
+ ![a](Capture.PNG)
+
 
 
 
