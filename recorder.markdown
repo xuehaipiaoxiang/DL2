@@ -1,4 +1,5 @@
-> April 2023
+# May 2023
+
 MOT multiple object tracking 目标追踪 检测+联系匹配
 * 评价标准 FP FN IDS MOTA
 1. 基于Tracking-by-detection的MOT<br>
@@ -8,12 +9,14 @@ MOT multiple object tracking 目标追踪 检测+联系匹配
 3. 基于注意力机制的MOT 
    TrackFormer
 # A Simple Baseline for Multi-Object Tracking
+>重点强调anchor-free的好处，并通过不同层次特征融合
 # ByteTrack: Multi-Object Tracking by Associating Every Detection Box
 # Online Multiple Object Tracking with Cross-Task Synerg  
 >通过注意和分散解决occlusion
 协同预测步骤和特征提取步骤
 
-# Deep SORT
+# DeepSORT
+# ~~Trackor++~~
 >YoloV5生成bbox
 >匈牙利算法 基于Reid iou构建代价矩阵完成tracks和bboxes的匹配
 >基于卡尔曼滤波生成预测
@@ -57,6 +60,19 @@ MOT multiple object tracking 目标追踪 检测+联系匹配
 # 第二篇 目标追踪的启发
 
 
+
+
+
+
+
+
+
+
+
+
+ ![a](Capture6.PNG)
+
+ ![a](Capture5.PNG)
 
  ![a](Capture.PNG)
 
