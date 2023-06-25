@@ -233,7 +233,7 @@ q(Wq),k(Wk),v(Wv),attention_matrix
 * 把每一个要处理的单词序列分别编码为一个vector<br>
   该vector应该包含单词本身信息和位置信息<br>
   如wordEmbedding+posEncoding相加
-![wd](Capture22.PNG) 
+![wd](./Capture22.PNG) 
 
 * X分别与Wq,WK,WV矩阵乘法，得到矩阵Q,W,V目的是产生可以学习的参数
 ![wd](Capture23.PNG) 
