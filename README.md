@@ -249,6 +249,8 @@ q(Wq),k(Wk),v(Wv),attention_matrix
   ![wd](Capture26.PNG) 
   ![wd](Capture27.PNG) 
   
+# **multi-head attention**
+  ![](Capture100.png) 
 
  
  ## layerNorm vs batchNorm
