@@ -78,17 +78,11 @@ MOT multiple object tracking 目标追踪 联系匹配
 >代价矩阵(reid,iou,卡尔曼估计)
 
 缺点：缺乏时空信息和运动信息
-## 代码
-> ![a](Capture.PNG)
+
 # Online Multiple Object Tracking with Cross-Task Synerg  
 ##  通过注意和分散解决occlusion
 
 ## 代码
- >![a](Capture6.PNG)
-
- >![a](Capture5.PNG)
-
- >![a](Capture9.PNG)
 
 <br>
 
@@ -99,29 +93,9 @@ MOT multiple object tracking 目标追踪 联系匹配
 
 ## 3.Dimensionality of the ReID Features
 
-Re-ID提升效果
-
-## DLA( Deep Layer Aggregation)
-类似于FPN(features pyramid network)
-
-
-# ByteTrack: Multi-Object Tracking by Associating Every Detection Box
-
-Low confidence detection
-boxes sometimes indicate the existence of objects, e.g. the
-occluded objects.
-
-将DeepSort上改进，将没有匹配到的轨迹与低置信度的bbox基于IOU再次匹配
-
-1、如何处理中途出现的新目标
-
-2、如何处理中途消失的目标
-
-3、正确目标关联
 
 
 
-# 目标追踪双端整合
 
 
 # 准备去看
