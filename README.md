@@ -223,8 +223,13 @@ q(Wq),k(Wk),v(Wv),attention_matrix
   ![wd](Capture26.PNG) 
   ![wd](Capture27.PNG) 
   
-# **multi-head attention**
+## multi-head attention
   ![](Capture100.png) 
+
+## cross-attention
+* 在corss-attention中，attention矩阵 rows和columns不必相等
+  ![](capture1.png) 
+
 
  
  ## layerNorm vs batchNorm
