@@ -229,6 +229,9 @@ q(Wq),k(Wk),v(Wv),attention_matrix
 ## cross-attention
 * 在corss-attention中，attention矩阵 rows和columns不必相等
   ![](capture1.png) 
+## detr
+  ![](capture1001.png) 
+
 
 
  
