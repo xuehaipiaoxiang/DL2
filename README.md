@@ -227,9 +227,16 @@ q(Wq),k(Wk),v(Wv),attention_matrix
   ![](Capture100.png) 
 
 ## cross-attention
-* 在corss-attention中，attention矩阵 rows和columns不必相等
+* 在corss-attention中，Q 和(K,V)的nums_tokens一般不相等，但是nums_dim是相等的
+* 进而attention_matrix的rows和column不相等
   ![](capture1.png) 
 ## detr
+#### encoder
+* 聚合全局特征
+* 融合(空间)位置信息到features中
+#### decoder
+* 可以视作精炼object queries 的过程
+* 在希尔伯特空间度量特征之间的相似性
   ![](capture1001.png) 
 
 
